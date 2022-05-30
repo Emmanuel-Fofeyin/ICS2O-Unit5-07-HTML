@@ -23,13 +23,13 @@ function myButtonClicked() {
   var firstInteger = document.getElementById("integer-one").value
 
  // process and output
-  var total = 0;
+  var total = 0
   if (firstInteger < 0) {
-    document.getElementById("loop").innerHTML = 
+    document.getElementById("loop").innerHTML =
       "Please input a positive number."
   } else {
     for (let counter = 0; counter <= firstInteger; counter ++) {
-      total += counter
+       total += counter
     }
   }
   document.getElementById("loop").innerHTML = "The number is " + total
