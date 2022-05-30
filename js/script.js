@@ -13,7 +13,7 @@ if (navigator.serviceWorker) {
   })
 }
 
-"use strict"
+;("use·strict")
 
 /**
  * This function calculates if you get free admission
@@ -22,14 +22,15 @@ function myButtonClicked() {
   // input
   var firstInteger = document.getElementById("integer-one").value
 
-    // process and output
+ // process and output
   var total = 0;
   if (firstInteger < 0) {
-    document.getElementById("loop").innerHTML = 'Please input a positive number.'
+    document.getElementById("loop").innerHTML = 
+      "Please input a positive number."
   } else {
     for (let counter = 0; counter <= firstInteger; counter ++) {
-       total += counter;
+      total += counter
     }
   }
-  document.getElementById("loop").innerHTML = "The number is " + (total)
+  document.getElementById("loop").innerHTML = "The number is " + total
 }
