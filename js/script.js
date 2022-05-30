@@ -28,7 +28,7 @@ function myButtonClicked() {
     document.getElementById("loop").innerHTML =
       "Please input a positive number."
   } else {
-    for (let counter = 0; counter <= firstInteger; counter ++) {
+    for (let counter = 0; counter <= firstInteger; counter++) {
       total += counter
     }
   }
