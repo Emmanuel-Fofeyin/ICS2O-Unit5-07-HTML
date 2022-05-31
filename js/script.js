@@ -4,6 +4,8 @@
 // Created on: Apr 2022
 // This file contains the JS functions for index.html
 
+"use·strict"
+
 /**
  * Check servie worker.
  */
@@ -13,7 +15,6 @@ if (navigator.serviceWorker) {
   })
 }
 
-;("use·strict")
 
 /**
  * This function calculates if you get free admission
