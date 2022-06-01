@@ -15,8 +15,6 @@ if (navigator.serviceWorker) {
   })
 }
 
-
-
 /**
  * This function calculates if you get free admission
  */
